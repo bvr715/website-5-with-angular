@@ -1,0 +1,71 @@
+.logo-img{
+  border-radius: 50%;
+  box-shadow: 0,0,3px black;
+  margin-top: -5px;
+}
+
+.bg-teal ,.btn-teal{
+
+  background-color: #27ddde !important;
+}
+
+.text-teal{
+  color:#27ddde !important;
+}
+
+/* Landing Section  Start*/
+
+.landing-section{
+  background-image: url(../assets/imges/bg-image.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.landing-wrapper{
+background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+.fa-play-circle{
+color:#27ddde;
+border: 3px solid transparent;
+border-radius: 50%;
+animation: glow-icon 0.8s infinite linear;
+}
+@keyframes glow-icon {
+0%,100%{
+  transform: scale(1,1);
+}
+50%{
+  transform: scale(1.07,1.07);
+  box-shadow: 0 0 10px white;
+  border: 3px dotted white;
+}
+}
+/* Landing Section End */
+
+/* Intro Section Start */
+
+.intro-icon{
+  background-color: black;
+  color: #27ddde;
+  border-radius: 50%;
+  box-shadow: 0 0 3px black;
+}
+/* Intro Section End */
+
+/* Gallery Section Start */
+.img-border{
+  border-radius: 50px;
+ border: 5px solid #27ddde !important;
+ box-shadow:0 0 10px black ;
+ transition: all 0.5s;
+ cursor: pointer;
+}
+
+.img-border:hover{
+  transform: scale(1.05,1.05);
+}
+
+
+
+/* Gallery Section End */
